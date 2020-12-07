@@ -13,10 +13,9 @@ export {
 export { config } from "https://deno.land/x/dotenv/mod.ts";
 
 // vue
-export { default as Vue } from "https://cdn.skypack.dev/vue";
-export { default as VueServerRenderer } from "https://cdn.skypack.dev/vue-server-renderer";
-export { default as VueRouter } from "https://cdn.skypack.dev/vue-router";
-
+// export { default as Vue } from "https://cdn.skypack.dev/vue";
+// export { default as VueServerRenderer } from "https://cdn.skypack.dev/vue-server-renderer";
+// export { default as VueRouter } from "https://cdn.skypack.dev/vue-router";
 
 // export Vue from "https://cdn.jsdelivr.net/npm/vue@3.0.4/dist/vue.esm.browser.js";
 // export { default as VueServerRenderer } from "https://dev.jspm.io/vue-server-renderer@2.6.12";
@@ -26,5 +25,6 @@ export { default as React } from "https://dev.jspm.io/react@16.14.0";
 export { default as ReactDOMServer } from "https://dev.jspm.io/react-dom@16.14.0/server";
 
 /**
- * https://zoom.us/j/294948814
+ * 
+ * deno run --allow-env --allow-net --allow-read --allow-write --allow-plugin --unstable server/server.ts -c tsconfig.json
  */
